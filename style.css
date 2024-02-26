@@ -1,0 +1,354 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: white;
+}
+.container{
+  width: 1170px;
+  max-width: 100%;
+  padding: 0 15px;
+  min-height: 30px;
+  /* border: 3px solid red; */
+  margin: 0 auto;
+}
+.nav-header{
+  background-image: url(./images/Header-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 885px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-links{
+  display: flex;
+  gap: 28px;
+}
+.navbar-links a{
+  font-size: 14px;
+}
+.navbar-links a:hover{
+  font-weight: 700;
+}
+.button{
+  font-size: 16px;
+  font-weight: 500;
+  padding: 15px 37px;
+  border-radius: 5px;
+  background: #F6762C;
+  cursor: pointer;
+  border: none;
+}
+.header{
+  margin-top: 186px;
+}
+.header h4{
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1.4px;
+  margin: 7px;
+}
+.header h1{
+  font-size: 57.33px;
+  font-weight: 500;
+  max-width: 555px;
+  margin-bottom: 37px;
+}
+.header .header-text{
+  font-size: 18px;
+  opacity: 0.7;
+  max-width: 523px;
+  margin-bottom: 42px;
+}
+/* products */
+.products{
+  background: #1C1C1C;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.products-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 40px;
+}
+.products-card{
+  border-radius: 10px;
+  background: #312F30;
+  width: 262px;
+  height: 323px;
+  text-align: center;
+}
+.products-card img{
+  border-radius: 18px 18px 0 0;
+}
+.products-heading{
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 28px;
+  margin-bottom: 13px;
+}
+/* products end */
+/* burgerking */
+.burgerking{
+  background: #312F30;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+.burgerking-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.burger-text{
+  margin-top: 142px;
+}
+.burger-text h3{
+  font-size: 44.2px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+.burger-text p{
+  font-size: 16px;
+  max-width: 368px;
+  margin-bottom: 13px;
+}
+.dollar6, .dollar8{
+  color: #F6762C;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.dollar8{
+  opacity: 0.5;
+  text-decoration-line: line-through;
+}
+.burger-text .button{
+  margin-top: 11px;
+}
+/* burgerking end */
+/* food */
+.food{
+  background: #1C1C1C;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.food-content{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.food-card{
+  width: 555px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.food-card-bg1{
+  align-items: flex-end;
+  background-image: url(./images/coffee.jpg);
+}
+.food-card-bg2{
+  background-image: url(./images/pizza.jpg);
+  padding-left: 50px;
+}
+.food-card-bg3{
+  align-items: flex-end;
+  background-image: url(./images/burgerking.jpg);
+}
+.food-card-bg4{
+  background-image: url(./images/lavash.jpg);
+  padding-left: 50px;
+}
+.food-card__text{
+  max-width: 263px;
+  display: flex;
+  flex-direction: column;
+}
+.food-card__text h4{
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.food-card__text p{
+  font-size: 16px;
+  opacity: 0.7;
+  margin-bottom: 11px;
+}
+.food-card__text .button{
+  font-size: 12px;
+  margin-top: 11px;
+}
+/* stuff */
+.stuff{
+  background-color: #1C1C1C;
+  padding-bottom: 200px;
+}
+.stuff-pictures{
+  position: relative;
+  width: 381px;
+  height: 362px;
+}
+.stuff-pictures img{
+  position: absolute;
+}
+.man1{
+  top: 50px;
+  border-radius: 50%;
+}
+.girl1{
+  left: 255px;  
+  border-radius: 50%;
+}
+.man2{
+  left: 75px;
+  bottom: 0;
+  border-radius: 50%;
+}
+.girl2{
+  right: 20px;
+  bottom: 50px;
+  border-radius: 50%;
+}
+.bigcircle{
+ left: 20px; 
+}
+.smallcircle{
+  left: 76px;
+  top: 63px;
+}
+.centergirl{
+  left: 71px;
+  top: 58px;
+}
+.stuff-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 118px;
+}
+.stuff-text{
+  width: 368px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.stuff-text p{
+  font-size: 16px;
+  opacity: 0.7;
+  margin-top: 37px;
+  margin-bottom: 27px;
+}
+.stuff-text h4{
+  font-size: 24px;
+  font-weight: 500;
+}
+.stuff-text h6{
+  font-size: 12px;
+  font-weight: 500;
+  opacity: 0.7;
+}
+/* download */
+.download{
+  background: #312F30;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.download-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.download-content h3{
+  font-size: 40px;
+  font-weight: 500;
+}
+/* footer */
+.footer{
+  background: #1C1C1C;
+  padding-top: 86px;
+  padding-bottom: 140px;
+}
+.footer-content{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer-logo{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 9px;
+}
+.fa-envelope, .fa-globe{
+  margin-left: 30px;
+  color: #F6762C;
+}
+.footer-links{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.footer-link__main{
+  font-size: 16px;
+  font-weight: 500;
+}
+.footer-link__a{
+  font-size: 12px;
+}
+.fa-brands{
+  margin-top: 15px;
+  font-size: 25px;
+}
+.fa-square-facebook{
+  color: rgb(43, 43, 206);
+}
+.fa-square-twitter, .fa-telegram{
+  color: aqua;
+}
+.fa-square-instagram{
+  color: orange;
+}
+.fa-linkedin{
+  color: blue;
+}
+.offcanvas{
+  display: none;
+  font-size: 30px;
+}
+
+
+@media (max-width: 992px){
+  .products-content{
+    justify-content: space-around;
+  }
+}
+@media (max-width: 768px){
+  .navbar-links, .navbar .button, .stuff-pictures, .footer-links{
+    display: none;
+  }
+  .offcanvas{
+    display: flex;
+  }
+  .footer-logo{
+    align-items: center;
+  }
+}
+@media (max-width: 576px){
+ .burgerking-content img{
+   width: 100%;
+ }
+}
